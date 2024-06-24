@@ -199,4 +199,34 @@ DimPlot(aj,label=T, repel = T, group.by = "simple2", cols = color_assignment2)
 ![image](https://github.com/jyhwang4/ACTS_30_s/assets/59998490/b9045012-b17d-460d-b05f-e5a51395b294)
 
 
+```{r}
 
+color_assignment <- c("Myeloid" = "red",
+                      "T/NK" = "blue", 
+                      "Epithelial" = "mediumseagreen",
+                      "Fibroblast" = "darkorange", "Endothelial" = "orangered",
+                      "Plasma" = "purple", "Mast" = "violetred1")
+
+color_assignment2 <- c( "C01_T_exhausted" = "#ADD8E6", "C02_T/NK_KLRB1" = "#87CEEB", "C03_T/NK_NLRC3" = "#00BFFF",
+                        "C04_T/NK_CCL18" = "#1E90FF", "C05_T_Reg" = "#4169E1", "C06_T/NK_KLRD1" = "#0000FF", 
+                        "C07_T/NK_Proliferation" = "#0000CD", "C08_T/NK_HELLS" = "#00008B",
+                        
+                        "C01_Macrophage_C1QB" = "#FF9999", "C02_Myeloid_CD86" = "#FF8080", "C03_Macrophage_APOC1" = "#FF6666",
+                        "C04_Myeloid_CD68" = "#FF4D4D", "C05_Myeloid_CD14" = "#FF3333", "C06_Myeloid_MSR1" = "#FF1A1A",
+                        "C07_Myeloid_SPI1" = "#FF0000", "C08_Myeloid_CXCL3" = "#CC0000",
+                        
+                        "C01_Epithelial_WFDC2" = "#00FF00", "C02_Epithelial_CXCL17" = "#00E600", "C03_Epithelial_EGFR" = "#00CC00", 
+                        "C04_Epithelial_CAPS" = "#00B300", "C05_Epithelial_RSPH1" = "#3CB371", "C06_Epithelial_EMP2" = "#009900",
+                        "C07_Epithelial_SFTPB" = "#007F00", "C08_Epithelial_CYP3A5" = "#006600", "C09_Epithelial_CXCL6" = "#013301",
+                        "C10_Epithelial_CHI3L2" ="#001000",
+                        
+                        "C01_Fibroblast_COL1A2" = "#ecfaa7", "C02_Fibroblast_SOD3" = "#e2f584", "C03_Fibroblast_SPARC" = "#dff765",
+                        "C04_Fibroblast_MYL9" = "#ddfa4b", "C05_Fibroblast_IGFBP4" = "#d8fa2a", "C06_Fibroblast_COL3A1" = "#d2fa05",
+                        "C07_Fibroblast_PRG4" = "#ccfa00",
+                        
+                        "C01_Endothelial_VWF" = "#FA5D23", "C02_Endothelial_EGFL7" = "orangered", "C03_Endothelial_SPARCL1" = "#B03102",
+                        
+                        "C01_Plasma_IRF8" = "#BE67F5",  "C02_Plasma_Immunoglobulin" = "#A020F0",
+                        
+                        "C01_Mast_CPA3" = "violetred1", "C02_Mast_TPSAB1" = "violetred2")
+```
